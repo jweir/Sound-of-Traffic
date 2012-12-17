@@ -1,0 +1,82 @@
+Concerns
+	Had a memory leak of some sort, have not been able to replicate
+
+Changes
+	Added velocity slider
+	Added icon size slider
+	Rewrote port drawing code to make it more efficient
+	Rewrote the saving code to make it compatible with the new port draing (no serialization of graphic components)
+	Added a simple form of scrolling the port view (is a bit buggy)
+	
+List of Things To Do for version .4
+
+[X] Fix ConcurrentModificationException (switched back to using a Hashtable and Enumeration where possible)
+[X] improve drawing, which is using most of the CPU
+[X] About box
+[X]	Turn off references to playing addresses, but leave code in place
+[X]	New button: Modified Only 
+		Functions to play (but not disable) only ports which have been user modified.
+[X]	Sorted List of ports
+[X] PortView scrolling
+
+
+
+Things to do for Version .44
+
+[x] Define AudioEngine interface
+[ ] Define AudioObjectEditor interface
+[x] Abstract the MidiEngine 
+[ ] Define hooks in Auralizer/Port to work with multiple audio egines
+[x] Create MidiPortEditor
+[ ] Remove image drawing from inside the Port Object
+[ ] PLay Modifed only is broken
+
+Things To Do for Version .45
+
+[ ] Fix Bug where TCPDump stops if started to early
+[ ] Reverb/pedal hold
+[ ] Optimize play port tables performance
+[ ] Add names to all threads
+[ ]	Save and Load to various instrument banks
+		Later dynamic creation of sound banks
+[ ]	Save app settings: Volume, tempo, highest note, etc
+[ ] Listener for Ports
+[ ] New Port Architecture
+[ ]	Better Instrument assignment & Port interface
+[ ]	Implement layeredPanel for Ports
+	[ ]	Improved port settings:
+			Highest Note, Reverb, Instrument, Volume, Sort/Dest Instrument (clap, back beat)
+			Min Hits for Play per Tick, Min Hits to Play total
+	[ ] Seperate drawing and playing for updates for the display
+[ ] Abstract the sound system for different synth methods (Java Midi, Java Sampled, JSyn) via AudioEngine
+[ ] Auto save system settings and auto load if *.sot file exists
+[ ] Draw PortView so it is centered and clipped
+
+Things To Do for Version .46
+
+[ ] Create SampledEngine
+[ ] Create VoiceEngine
+[ ] Create JassEngine
+[ ] Create 
+
+Things To Do for Version .5 (first public release)
+
+[ ] Capture More tcpdump data
+[ ] Create/test sampled audio interface (isntead of midi)
+[ ] Toggle between Midi/Sampled Audio
+[ ] Create predefined port/instrument banks
+[ ] Get to work under windows
+[ ] Implement non sudo authorization
+[ ] Clean up interface
+[ ] Link GUI Component values to object values for updating
+
+List of Things To Do for version 1.0
+
+Add port to application linking (ie: port 80 to apache logs)
+Implement OpenGL drawing
+Save IP Address + Packet size to port over time to generate 3D Tree display of port
+Investigate using OpenAL as the new sound system
+Completely custom interface
+
+
+Things To Do for Version SS 1.0 (OS X Screen Saver)

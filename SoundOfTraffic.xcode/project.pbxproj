@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		00E6828EFEC88D1A11DB9C8B = {
+			buildSettings = {
+			};
+			buildStyles = (
+				130F8B95001BDF0A11CA292A,
+				130F8B96001BDF0A11CA292A,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 00E6828FFEC88D1A11DB9C8B;
+			productRefGroup = 0120612AFEC8923411DB9C8B;
+			projectDirPath = "";
+			targets = (
+				130F8B90001BDF0A11CA292A,
+			);
+		};
+		00E6828FFEC88D1A11DB9C8B = {
+			children = (
+				B18BCA1A075697880029D9C3,
+				B18247580713D04900C4B866,
+				B122A5B506F273A90084A6F8,
+				B1290133072A1C40003B7D2F,
+				B115C70106EE6CAF00864977,
+				B184C6B6075AC69F008CAB29,
+				B115C6FF06EE6C6200864977,
+				B115C6DA06EDB52800864977,
+				B115C6DB06EDB52800864977,
+				B115C6DC06EDB52800864977,
+				010341B7FEEF030011DB9C8B,
+				6A8008AE02C7B68F0CC91562,
+				0120612AFEC8923411DB9C8B,
+				6A0644A002C7BD230CC91562,
+			);
+			isa = PBXGroup;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//000
+//001
+//002
+//003
+//004
+//010
+//011
+//012
+//013
+//014
+		010341B7FEEF030011DB9C8B = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SoundOfTraffic.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0120612AFEC8923411DB9C8B = {
+			children = (
+				6A9ED92C02B0286D0CC91562,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//010
+//011
+//012
+//013
+//014
+//130
+//131
+//132
+//133
+//134
+		130F8B90001BDF0A11CA292A = {
+			buildPhases = (
+				130F8B91001BDF0A11CA292A,
+				130F8B93001BDF0A11CA292A,
+				130F8B94001BDF0A11CA292A,
+				6A0644BC02C7C42C0CC91562,
+				B1916FA5072D8C9B00BBFAAC,
+			);
+			buildSettings = {
+				JAVA_ARCHIVE_CLASSES = YES;
+				JAVA_ARCHIVE_COMPRESSION = NO;
+				JAVA_ARCHIVE_TYPE = JAR;
+				JAVA_COMPILER = /usr/bin/javac;
+				JAVA_MANIFEST_FILE = Manifest;
+				JAVA_SOURCE_SUBDIR = .;
+				PRODUCT_NAME = SoundOfTraffic;
+				PURE_JAVA = YES;
+				REZ_EXECUTABLE = YES;
+			};
+			dependencies = (
+			);
+			isa = PBXToolTarget;
+			name = SoundOfTraffic;
+			productInstallPath = /usr/local/bin;
+			productName = SoundOfTraffic;
+			productReference = 6A9ED92C02B0286D0CC91562;
+		};
+		130F8B91001BDF0A11CA292A = {
+			buildActionMask = 2147483647;
+			files = (
+				B115C81006EE816900864977,
+				B115C81106EE816B00864977,
+				B115C81206EE816C00864977,
+				B115C82A06EE823300864977,
+				B115C82B06EE823500864977,
+				B1381A1206EE8FE90026F19A,
+				B1381A5B06EE98750026F19A,
+				B19281AB06F66538008CE7B3,
+				B1F25797070F3F4A00F17A0E,
+				B1F257BA070F41B600F17A0E,
+				B129013A072A1C40003B7D2F,
+				B129014A072A1CFA003B7D2F,
+				B1290165072A1E37003B7D2F,
+				B1B2A0910735A1940033ECF2,
+				B1B385040753BD8500BDA642,
+				B1C6DE5107546FFE0064948B,
+				B150F6640755BCA300ADB5AE,
+				B184C6B7075AC69F008CAB29,
+				B1C3635E075DB01D00AFE98F,
+				B1C36377075DB50700AFE98F,
+				B1436F80075FD59800161333,
+				B1436FE0075FDDF700161333,
+				B1FE7B1B07603AB4001C343B,
+				B1FE7B3A07603EEA001C343B,
+				B17A9D15076135E800A767B7,
+				B185EFA907654E1F00C1C1A5,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130F8B93001BDF0A11CA292A = {
+			buildActionMask = 2147483647;
+			files = (
+				B1B2A0670735A02B0033ECF2,
+				B18BCA1B075697880029D9C3,
+			);
+			isa = PBXJavaArchiveBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130F8B94001BDF0A11CA292A = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130F8B95001BDF0A11CA292A = {
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ZERO_LINK = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		130F8B96001BDF0A11CA292A = {
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				ZERO_LINK = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//130
+//131
+//132
+//133
+//134
+//6A0
+//6A1
+//6A2
+//6A3
+//6A4
+		6A0644A002C7BD230CC91562 = {
+			children = (
+				6A0644AC02C7C26E0CC91562,
+			);
+			isa = PBXGroup;
+			name = Documentation;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		6A0644AC02C7C26E0CC91562 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.man;
+			path = SoundOfTraffic.1;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		6A0644BC02C7C42C0CC91562 = {
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6A8008AE02C7B68F0CC91562 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = Manifest;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		6A9ED92C02B0286D0CC91562 = {
+			explicitFileType = "compiled.mach-o.executable";
+			includeInIndex = 0;
+			isa = PBXFileReference;
+			path = SoundOfTraffic.jar;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+//6A0
+//6A1
+//6A2
+//6A3
+//6A4
+//B10
+//B11
+//B12
+//B13
+//B14
+		B115C6D506EDB52800864977 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = GraphicalDisplay.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B115C6D806EDB52800864977 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Port.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B115C6DA06EDB52800864977 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Tank.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B115C6DB06EDB52800864977 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = TCPDump.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B115C6DC06EDB52800864977 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = TCPFilter.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B115C6FF06EE6C6200864977 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = PartialTrafficHeader.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B115C70106EE6CAF00864977 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Constants.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B115C77C06EE7D4200864977 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Auralizer.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B115C81006EE816900864977 = {
+			fileRef = B115C6DA06EDB52800864977;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B115C81106EE816B00864977 = {
+			fileRef = B115C6DB06EDB52800864977;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B115C81206EE816C00864977 = {
+			fileRef = B115C6DC06EDB52800864977;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B115C82A06EE823300864977 = {
+			fileRef = B115C6FF06EE6C6200864977;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B115C82B06EE823500864977 = {
+			fileRef = B115C6D806EDB52800864977;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B122A5B506F273A90084A6F8 = {
+			children = (
+				B185EFA807654E1F00C1C1A5,
+				B115C77C06EE7D4200864977,
+				B1381A1106EE8FE90026F19A,
+				B1436F7F075FD59800161333,
+				B17A9D14076135E800A767B7,
+				B1FE7B3907603EEA001C343B,
+				B1FE7B1A07603AB4001C343B,
+				B1436FDF075FDDF700161333,
+				B1C36376075DB50700AFE98F,
+				B115C6D806EDB52800864977,
+			);
+			isa = PBXGroup;
+			name = "Aural Objects";
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B1290133072A1C40003B7D2F = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Controller.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B129013A072A1C40003B7D2F = {
+			fileRef = B1290133072A1C40003B7D2F;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B1290149072A1CFA003B7D2F = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = GUI_Component.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B129014A072A1CFA003B7D2F = {
+			fileRef = B1290149072A1CFA003B7D2F;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B1290164072A1E37003B7D2F = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = GUI_Ports.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B1290165072A1E37003B7D2F = {
+			fileRef = B1290164072A1E37003B7D2F;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B1381A1106EE8FE90026F19A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = AudibleObject.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B1381A1206EE8FE90026F19A = {
+			fileRef = B1381A1106EE8FE90026F19A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B1381A5B06EE98750026F19A = {
+			fileRef = B115C77C06EE7D4200864977;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B1436F7F075FD59800161333 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = AudioEngine.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B1436F80075FD59800161333 = {
+			fileRef = B1436F7F075FD59800161333;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B1436FDF075FDDF700161333 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = MidiObjectEditor.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B1436FE0075FDDF700161333 = {
+			fileRef = B1436FDF075FDDF700161333;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B150F6630755BCA300ADB5AE = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Style.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B150F6640755BCA300ADB5AE = {
+			fileRef = B150F6630755BCA300ADB5AE;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B17A9D14076135E800A767B7 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = JSynEngine.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B17A9D15076135E800A767B7 = {
+			fileRef = B17A9D14076135E800A767B7;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B18247580713D04900C4B866 = {
+			children = (
+				B1C3635D075DB01D00AFE98F,
+				B150F6630755BCA300ADB5AE,
+				B115C6D506EDB52800864977,
+				B1290149072A1CFA003B7D2F,
+				B1B2A0900735A1940033ECF2,
+				B1290164072A1E37003B7D2F,
+				B1F257B9070F41B600F17A0E,
+				B19281AA06F66538008CE7B3,
+			);
+			isa = PBXGroup;
+			name = GUI;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B184C6B6075AC69F008CAB29 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = BrowserLauncher.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B184C6B7075AC69F008CAB29 = {
+			fileRef = B184C6B6075AC69F008CAB29;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B185EFA807654E1F00C1C1A5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = AudibleObjectEditor.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B185EFA907654E1F00C1C1A5 = {
+			fileRef = B185EFA807654E1F00C1C1A5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B18BCA1A075697880029D9C3 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = notes.txt;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B18BCA1B075697880029D9C3 = {
+			fileRef = B18BCA1A075697880029D9C3;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = "";
+			};
+		};
+		B1916FA5072D8C9B00BBFAAC = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19281AA06F66538008CE7B3 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = GUI_TCPDump.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B19281AB06F66538008CE7B3 = {
+			fileRef = B19281AA06F66538008CE7B3;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B1B2A0670735A02B0033ECF2 = {
+			fileRef = 6A8008AE02C7B68F0CC91562;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = "";
+			};
+		};
+		B1B2A0900735A1940033ECF2 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = GUI_MainMenu.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B1B2A0910735A1940033ECF2 = {
+			fileRef = B1B2A0900735A1940033ECF2;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B1B385040753BD8500BDA642 = {
+			fileRef = 010341B7FEEF030011DB9C8B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B1C3635D075DB01D00AFE98F = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = GUI_AboutBox.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B1C3635E075DB01D00AFE98F = {
+			fileRef = B1C3635D075DB01D00AFE98F;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B1C36376075DB50700AFE98F = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = MidiEngine.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B1C36377075DB50700AFE98F = {
+			fileRef = B1C36376075DB50700AFE98F;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B1C6DE5107546FFE0064948B = {
+			fileRef = B115C70106EE6CAF00864977;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B1F25797070F3F4A00F17A0E = {
+			fileRef = B115C6D506EDB52800864977;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B1F257B9070F41B600F17A0E = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = GUI_Auralizer.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B1F257BA070F41B600F17A0E = {
+			fileRef = B1F257B9070F41B600F17A0E;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B1FE7B1A07603AB4001C343B = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = MidiObject.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B1FE7B1B07603AB4001C343B = {
+			fileRef = B1FE7B1A07603AB4001C343B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B1FE7B3907603EEA001C343B = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Direction.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B1FE7B3A07603EEA001C343B = {
+			fileRef = B1FE7B3907603EEA001C343B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+	};
+	rootObject = 00E6828EFEC88D1A11DB9C8B;
+}
